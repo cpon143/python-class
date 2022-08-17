@@ -61,11 +61,21 @@ else:
 '''
 
 
-x,y=10,15
+'''x,y=10,15
 if x<y:
     print(x)
 else:
     print(y)
-    print("is the min")
+    print("is the min")'''
+    
+number=int(input('enter the number'))
+if number==10:
+    print('number is equal to 10')
+elif number==50:
+    print('number is equal to 50')
+elif number==100:
+    print('number is equal to 100')
+else:
+    print('number is 10,50,100')
 
     
