@@ -1,0 +1,60 @@
+python 
+
+formal and natural language:- 
+Natural language.
+Formal language
+Parsing
+
+
+for input
+var=input('enter your name')
+    input('enter your age')
+
+elements in python:-
+
+variable expression and statements:-
+
+types in python
+---------sacllor
+---------non-scallor--------like str, list
+
+Implicit typecast
+eg .
+a=5
+>>> b=5.5
+>>> print(a+b)
+10.5
+
+Explicit Typecast
+
+Assignment statement
+   LHS= RHS
+   VAR= EXPRESSION
+   eg   a=b+c
+   like   a=5 , b=8
+        c=13
+  x,y=5,6
+  here x=5, y=6
+
+    x,y=8,5
+>>> x+y
+13
+
+
+>>> a,b=10,20
+>>> a,b=b+1,a+1
+>>> a,b
+(21, 11)    
+
+
+
+
+    kry words in python
+  =29
+
+  Operators
+  Arithmetic = +, -, *, //, /, %, **
+  Comparison =  ==, !=, <, >, 
+
+   (-1)//2=-1
+   1//(-2)=-1
