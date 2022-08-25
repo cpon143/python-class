@@ -1,5 +1,5 @@
 n=int(input("Enter a number"))
-fact=1
+fact=1                  
 if (n==0):
     print(fact)
 else:
