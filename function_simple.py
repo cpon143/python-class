@@ -4,8 +4,8 @@
 # simple()
 
 def add():
-    a=5
-    b=10
+    a=int(input("value of a"))
+    b=int(input("value of b"))
     sum=a+b
     print(sum)
 print("first before function ")
