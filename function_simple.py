@@ -36,12 +36,15 @@
 # sum_avg(n)
 
 # sum of n natral number
-def n_sum(n:int)->int:
-    sum=0
-    for i in range(1,n+1):
-        sum=sum+i
-    return sum
-n=int(input("enter the value of n"))
-ans=sum
-ans=n_sum(n)
-print("sum is:-",ans)
+# def n_sum(n:int)->int:
+#     sum=0
+#     for i in range(1,n+1):
+#         sum=sum+i
+#     return sum
+# n=int(input("enter the value of n"))
+# ans=sum
+# ans=n_sum(n)
+# print("sum is:-",ans)
+
+def add_digit(a:int):
+    
