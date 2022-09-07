@@ -1,58 +1,57 @@
-Python 3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)] on win32
-Type "help", "copyright", "credits" or "license()" for more information.
->>> var=input('15')
+
+ var=input('15')
 15
->>> age=('15')
->>> print(type(age))
+ age=('15')
+ print(type(age))
 <class 'str'>
->>> x=10
->>> print(type(x))
+ x=10
+ print(type(x))
 <class 'int'>
->>> y=10000000
->>> print(type(y))
+ y=10000000
+ print(type(y))
 <class 'int'>
->>> x=1.5
->>> print(type(x))
+ x=1.5
+ print(type(x))
 <class 'float'>
->>> 
->>> x=-5
->>> print(type(x))
+ 
+ x=-5
+ print(type(x))
 <class 'int'>
->>> 
->>> print(type(500))
+ 
+ print(type(500))
 <class 'int'>
->>> print(type(500.5))
+ print(type(500.5))
 <class 'float'>
->>> print(type(true))
+ print(type(true))
 Traceback (most recent call last):
   File "<pyshell#15>", line 1, in <module>
     print(type(true))
 NameError: name 'true' is not defined
->>> print(type(3!=5))
+ print(type(3!=5))
 <class 'bool'>
->>> print(type(true))
+ print(type(true))
 Traceback (most recent call last):
   File "<pyshell#17>", line 1, in <module>
     print(type(true))
 NameError: name 'true' is not defined
->>> print(type(true))
+ print(type(true))
 Traceback (most recent call last):
   File "<pyshell#18>", line 1, in <module>
     print(type(true))
 NameError: name 'true' is not defined
->>> x=true
+ x=true
 Traceback (most recent call last):
   File "<pyshell#19>", line 1, in <module>
     x=true
 NameError: name 'true' is not defined
->>> print(type(true))
+ print(type(true))
 Traceback (most recent call last):
   File "<pyshell#20>", line 1, in <module>
     print(type(true))
 NameError: name 'true' is not defined
->>> print(type('true'))
+ print(type('true'))
 <class 'str'>
->>> age=input("enter your age")
+ age=input("enter your age")
 enter your age
 >>> age="age"
 >>> print(age+5)
