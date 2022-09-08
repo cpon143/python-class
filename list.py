@@ -9,3 +9,8 @@ print(fib[6])
 # 2 to 5
 print(fib[2:6])
 print(fib[-6:-1])
+
+# concatination
+l1=[1,2,3]
+l2=[4,5,6]
+print(l1+l2)
