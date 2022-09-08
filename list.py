@@ -12,5 +12,13 @@ print(fib[-6:-1])
 
 # concatination
 l1=[1,2,3]
-l2=[4,5,6]
-print(l1+l2)
+l2=[4,5,6,l1]
+l2
+l1=[1,2,3,4]
+print(l2)
+l1[2]=25
+print(l1)
+
+# ---------------------unpacking of list
+x1,x2,x3=[11,22,33]
+print(x1,x2,x3)
