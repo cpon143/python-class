@@ -22,3 +22,23 @@ print(l1)
 # ---------------------unpacking of list
 x1,x2,x3=[11,22,33]
 print(x1,x2,x3)
+
+# ----------------------------------------------
+# append()_add a single to the list
+odd=[1,3,5]
+odd.append(7)
+print(odd)
+# --------------------------
+# odd.extend[9,11,13]
+# print(odd)
+
+# insert   
+# delete=is used to delete items from list
+# oddd=[1,3,5,7,11]
+# # single items
+# del oddd[1]
+# print(oddd)
+# -----------------------------------pop
+even=[2,4,6,8]
+even.remove(3)
+even.pop(4)
