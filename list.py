@@ -42,3 +42,5 @@ print(odd)
 even=[2,4,6,8]
 even.remove(3)
 even.pop(4)
+# newwwwwwwwwwww
+
