@@ -5,6 +5,11 @@ class Animal:
 class Dog(Animal):
     def bark(self):
         print("Dog barking")
-d=Dog()
+        # multilevel inheritence
+class DogChild(Dog):
+    def eat(self):
+        print("Eating Bread")
+d=DogChild()
 d.bark()
 d.speak()
+d.eat()
