@@ -7,7 +7,7 @@ for i in range(1200):
     color('green')
     circle(i)
     color('blue')
-    circle(50*5)
+    circle(50*50)
     right(40)
     forward(3)
 done()

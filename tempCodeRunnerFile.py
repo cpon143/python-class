@@ -1,4 +1,10 @@
-oddd=[1,3,5,7,11]
-# # single items
-# del oddd[1]
-# print(oddd)
+employee = Employee()
+# employee.WorkingHrs()
+# employee.printHrs()
+ 
+# trainee=Trainee()
+# trainee.WorkingHrs()
+# trainee.printHrs()
+# # Reset Trainee Hrs
+# trainee.resetHrs()
+# trainee.printHrs()
