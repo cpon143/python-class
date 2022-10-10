@@ -1,10 +1,2 @@
-employee = Employee()
-# employee.WorkingHrs()
-# employee.printHrs()
- 
-# trainee=Trainee()
-# trainee.WorkingHrs()
-# trainee.printHrs()
-# # Reset Trainee Hrs
-# trainee.resetHrs()
-# trainee.printHrs()
+z=54.19
+# print("%5.2f"%z)
