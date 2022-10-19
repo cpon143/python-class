@@ -26,19 +26,36 @@
 # checkbtn3.pack()
 # top.mainloop()
 
+# import tkinter
+# from tkinter import *
+# top=Tk()
+# top.geometry("200x300")
+# lbl=Label(top,text="Top four countries in the world")
+# listbox=Listbox(top)
+# listbox.insert(1,"India")
+# listbox.insert(2,"America")
+# listbox.insert(3,"Austrila")
+# listbox.insert(4,"Japan")
+# btn=Button(top,text="delete",command=lambda listbox = listbox.delete(ANCHOR))
+
+# btn.pack()
+# lbl.pack()
+# listbox.pack()
+# top.mainloop()
+
+
 import tkinter
 from tkinter import *
 top=Tk()
-top.geometry("200x300")
-lbl=Label(top,text="Top four countries in the world")
-listbox=Listbox(top)
-listbox.insert(1,"India")
-listbox.insert(2,"America")
-listbox.insert(3,"Austrila")
-listbox.insert(4,"Japan")
-btn=Button(top,text="delete",command=lambda listbox = listbox.delete(ANCHOR))
+def hello():
+    print("hello")
+    
+#create a top level menu
+menubar=Menu(top)
+menubar.add_command(label="Hello!",command=hello)
+menubar.add_command(label="Quit!",command=top.destroy)
 
-btn.pack()
-lbl.pack()
-listbox.pack()
+#display the menu
+top.config(menu=menubar)
+
 top.mainloop()
