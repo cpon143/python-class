@@ -36,7 +36,7 @@ listbox.insert(1,"India")
 listbox.insert(2,"America")
 listbox.insert(3,"Austrila")
 listbox.insert(4,"Japan")
-btn=Button(top,text="delete",command=lambda listbox=listbox.delete(ANCHOR))
+btn=Button(top,text="delete",command=lambda listbox = listbox.delete(ANCHOR))
 
 btn.pack()
 lbl.pack()
