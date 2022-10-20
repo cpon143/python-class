@@ -4,7 +4,7 @@ root.geometry("200x200")
 def open():
     top= Toplevel(root)
     top.mainloop()
-btn=Button(root,text="click me", command=open)
+btn=Button(root,text="click me plz", command=open)
 
 btn.place(x=75,y=50)
 
