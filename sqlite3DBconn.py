@@ -94,9 +94,16 @@ cursor.execute('''INSERT INTO Student VALUES('Someone', 'K', 'B')''')
 
 # WHERE CLAUSE TO RETRIVE DATA
 #  R% (name starting with R)
-cursor.execute("SELECT * FROM Student WHERE Name Like 'R%'")
-# printing the cursor data
-print(cursor.fetchall())
+# cursor.execute("SELECT * FROM Student WHERE Name Like 'R%'")
 
-conn.commit()
+# table in assending order based on address
+cursor.execute("SELECT * FROM Student ORDER BY Class DESC")
+
+# printing the cursor data
+# print(cursor.fetchall())
+# conn.commit()
+
+# DISPLAY DATA ROW BY ROW 
+for i in cursor:
+    print(i)
 conn.close()
