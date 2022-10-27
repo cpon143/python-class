@@ -4,6 +4,7 @@ cursor=conn.cursor()
 conn.execute("DROP TABLE IF EXISTS Employee")
 table='''CREATE TABLE Employee(Name varchar(255), Income int, Age int);'''
 cursor.execute(table)
+# By MD......
 
 cursor.execute('''INSERT INTO Employee VALUES('Rahul', 6000, 18)''')
 cursor.execute('''INSERT INTO Employee VALUES('Vinit', 10000, 30)''')
