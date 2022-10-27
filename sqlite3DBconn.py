@@ -87,7 +87,16 @@ cursor.execute('''INSERT INTO Student VALUES('Anjali', 'EK', 'B')''')
 cursor.execute('''INSERT INTO Student VALUES('Anyone', 'Ko', 'B')''')
 cursor.execute('''INSERT INTO Student VALUES('Someone', 'K', 'B')''')
 
-print("Data inserted in to table: ")
-data=cursor.execute('''SELECT * FROM Student''')
-for row in data:
-    print(row)
+# print("Data inserted in to table: ")
+# data=cursor.execute('''SELECT * FROM Student''')
+# for row in data:
+#     print(row)
+
+# WHERE CLAUSE TO RETRIVE DATA
+#  R% (name starting with R)
+cursor.execute("SELECT * FROM Student WHERE Name Like 'R%'")
+# printing the cursor data
+print(cursor.fetchall())
+
+conn.commit()
+conn.close()
