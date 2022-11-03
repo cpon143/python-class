@@ -61,3 +61,31 @@ plt.ylabel('y-axis',fontdict=font)
 plt.grid()
 plt.plot(x2,y2)
 plt.show()
+
+# about two company data
+
+import matplotlib.pyplot as plt
+import numpy as np
+font = {'family': 'serif',
+        'color':  'darkred',
+        'weight': 'normal',
+        'size': 16,
+        }
+
+x1=np.array([0,1,2,3])
+y1=np.array([1,6,5,7])
+plt.subplot(1,2,1)
+plt.plot(x1,y1)
+x2=np.array([0,1,2,3])
+y2=np.array([1,8,2,7])
+plt.title('BMW')
+plt.xlabel('Years',fontdict=font)
+plt.ylabel('Sold Cars',fontdict=font)
+plt.grid()
+plt.subplot(1,2,2)
+plt.title('MARUTI')
+plt.xlabel('Years',fontdict=font)
+# plt.ylabel('y-axis',fontdict=font)
+plt.grid()
+plt.plot(x2,y2)
+plt.show()
