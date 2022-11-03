@@ -34,9 +34,23 @@ print(arr6)
 print(arr6.ndim)
 
 # ------------------------------------
-#  Access the array element
+#  Access the 1D array element
 print("Accessing array")
 arr11=np.array([1,2,3,4,5,6])
 print(arr11[0])
 print(arr11[-1])
 print(arr11[0]+arr11[3])
+
+# ------------------------------------
+#  Access the 2D array element
+print("Accessing array")
+arr12=np.array([[1,2,3],[4,5,6]])
+print(arr12[0][2])
+print(arr12[0][2]+arr12[1][2])
+
+
+# ------------------------------------
+#  Access the 2D array element
+print("Accessing array")
+arr3=np.array([[[1,2,3],[4,5,6]],[[7,8,9],[10,11,12,]]])
+print(arr3[1,0,1])
